@@ -1,0 +1,33 @@
+/* .container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.form {
+  display: grid;
+  gap: 10px;
+  max-width: 300px;
+}
+.form input, .form select {
+  padding: 6px;
+}
+.summary {
+  background: #eef;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background: #f0f0f0;
+} */
