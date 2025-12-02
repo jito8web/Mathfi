@@ -12,10 +12,10 @@ export default function App(){
       <aside className="w-64 bg-white border-r p-4">
         <h2 className="text-xl font-bold mb-4">Amortissement</h2>
         <nav className="flex flex-col gap-2">
-          <NavLink to="/" end className={({ isActive }) => isActive ? 'p-2 rounded bg-sky-100' : 'p-2 rounded hover:bg-sky-50'}>Accueil</NavLink> 
-          <NavLink to="/compare" className={({isActive}) => isActive ? 'p-2 rounded bg-sky-100' : 'p-2 rounded hover:bg-sky-50'}>Comparer</NavLink>
-          <NavLink to="/charts" className={({isActive}) => isActive ? 'p-2 rounded bg-sky-100' : 'p-2 rounded hover:bg-sky-50'}>Graphiques</NavLink>
-          <NavLink to="/export" className={({isActive}) => isActive ? 'p-2 rounded bg-sky-100' : 'p-2 rounded hover:bg-sky-50'}>Export</NavLink>
+          <NavLink to="/Mathfi/" end className={({ isActive }) => isActive ? 'p-2 rounded bg-sky-100' : 'p-2 rounded hover:bg-sky-50'}>Accueil</NavLink> 
+          <NavLink to="/Mathfi/compare" className={({isActive}) => isActive ? 'p-2 rounded bg-sky-100' : 'p-2 rounded hover:bg-sky-50'}>Comparer</NavLink>
+          <NavLink to="/Mathfi/charts" className={({isActive}) => isActive ? 'p-2 rounded bg-sky-100' : 'p-2 rounded hover:bg-sky-50'}>Graphiques</NavLink>
+          <NavLink to="/Mathfi/export" className={({isActive}) => isActive ? 'p-2 rounded bg-sky-100' : 'p-2 rounded hover:bg-sky-50'}>Export</NavLink>
         </nav>
       </aside>
 
