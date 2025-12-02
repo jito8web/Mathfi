@@ -21,10 +21,10 @@ export default function App(){
 
       <main className="flex-1 p-6">
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/compare" element={<Compare/>} />
-          <Route path="/charts" element={<ChartsPage/>} />
-          <Route path="/export" element={<Export/>} />
+          <Route path="/Mathfi/" element={<Home/>} />
+          <Route path="/Mathfi/compare" element={<Compare/>} />
+          <Route path="/Mathfi/charts" element={<ChartsPage/>} />
+          <Route path="/Mathfi/export" element={<Export/>} />
         </Routes>
       </main>
     </div>
